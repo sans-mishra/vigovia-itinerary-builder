@@ -1,16 +1,44 @@
-# React + Vite
+# Itinerary Builder & PDF Generator (Vigovia Frontend Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a single-page **React** application built to meet the technical and aesthetic specifications of the Vigovia frontend assignment. It allows users to input complex multi-day travel details and instantly generate a high-fidelity, client-side PDF document that precisely replicates the required Figma design.
 
-Currently, two official plugins are available:
+## 🏆 Key Achievements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Design Fidelity (Aesthetic Match)
 
-## React Compiler
+The user interface and the final PDF output achieve maximum visual fidelity with the provided Figma screenshots.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Styled UI:** Built with **React** and **Tailwind CSS** for a responsive, modern, and aesthetic input experience.
+* **PDF Design Replication (Crucial):** The document is generated using **`jspdf`** and custom rendering logic to draw precise, structured, and color-coded blocks (dark purple headers, light purple background boxes, and custom table layouts) that match the requested design structure.
 
-## Expanding the ESLint configuration
+### 2. Core Functionality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Client-Side PDF Generation (Core Requirement):** The app generates a structured, multi-page PDF entirely in the browser (client-side), fulfilling the assignment's main technical constraint.
+* **Dynamic Form Management:** The React state efficiently handles dynamically adding and removing complex nested components like **Daily Activities**, **Flights**, **Hotels**, and **Payment Installments**.
+* **Data Integrity:** Captures all required itinerary details, notes, inclusion summaries, and payment structures.
+
+### 3. Technologies Used
+
+* **Frontend Framework:** React (Vite)
+* **Styling:** Tailwind CSS
+* **PDF Generation:** `jspdf`
+* **Icons:** `lucide-react`
+
+---
+
+## ⚙️ Local Setup and Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [PASTE YOUR ACTUAL GITHUB REPO LINK HERE]
+    cd vigovia-itinerary
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the application:**
+    ```bash
+    npm run dev
+    ```
+    The application will run locally at `http://localhost:5173/`.
