@@ -32,7 +32,7 @@ The user interface and the final PDF output achieve maximum visual fidelity with
    ```bash
     git clone [https://github.com/sans-mishra/vigovia-itinerary-builder.git](https://github.com/sans-mishra/vigovia-itinerary-builder.git)
     cd vigovia-itinerary-builder
-    ```
+   ```
 2.  **Install dependencies:**
     ```bash
     npm install
