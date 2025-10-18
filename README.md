@@ -29,9 +29,9 @@ The user interface and the final PDF output achieve maximum visual fidelity with
 ## ⚙️ Local Setup and Installation
 
 1.  **Clone the repository:**
-    ```bash
-    git clone [PASTE YOUR ACTUAL GITHUB REPO LINK HERE]
-    cd vigovia-itinerary
+   ```bash
+    git clone [https://github.com/sans-mishra/vigovia-itinerary-builder.git](https://github.com/sans-mishra/vigovia-itinerary-builder.git)
+    cd vigovia-itinerary-builder
     ```
 2.  **Install dependencies:**
     ```bash
